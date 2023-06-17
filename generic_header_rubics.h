@@ -50,7 +50,7 @@ public :
 
     void print() const;
 
-    vector<MOVE> randomeShuffleCube(unsigned int times);
+    vector<MOVE> randomShuffleCube(unsigned int times);
 
     RubiksCube &move(MOVE ind);
 
