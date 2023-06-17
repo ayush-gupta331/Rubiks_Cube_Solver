@@ -3,7 +3,11 @@ using namespace std;
 
 int main() {
 //    std::cout << "Hello, World!" << std::endl;
-cout<<"aisjv";
-    return 0;
+        int n;
+        cin>>n;
+        cout<<n<<endl;
+
+        cout<<"aisjv";
+        return 0;
 
 }
