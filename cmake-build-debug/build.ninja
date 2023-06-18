@@ -67,6 +67,12 @@ build CMakeFiles/untitled.dir/RubiksCube3dArray.cpp.o: CXX_COMPILER__untitled_De
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
 
+build CMakeFiles/untitled.dir/RbiksCube3dArray.cpp.o: CXX_COMPILER__untitled_Debug /Users/ayushgupta/CLionProjects/untitled/RbiksCube3dArray.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/RbiksCube3dArray.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -75,7 +81,7 @@ build CMakeFiles/untitled.dir/RubiksCube3dArray.cpp.o: CXX_COMPILER__untitled_De
 #############################################
 # Link the executable untitled
 
-build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/generic_header_rubics.cpp.o CMakeFiles/untitled.dir/RubiksCube3dArray.cpp.o
+build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/generic_header_rubics.cpp.o CMakeFiles/untitled.dir/RubiksCube3dArray.cpp.o CMakeFiles/untitled.dir/RbiksCube3dArray.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :
