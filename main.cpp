@@ -1,16 +1,18 @@
 #include <bits/stdc++.h>
-#include "RbiksCube3dArray.cpp"
+#include "RubicksCube1dArray.cpp"
 using namespace std;
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    RubiksCube3dArray objects3d;
-    objects3d.print();
-    objects3d.b();
-    objects3d.print();
-    objects3d.randomShuffleCube(5);
-    objects3d.print();
+    RubiksCube1dArray objects1d;
+    objects1d.print();
+    objects1d.b();
+    objects1d.print();
+    objects1d.randomShuffleCube(5);
+    objects1d.print();
 
-
-
+    vector<RubiksCube::MOVE> arr = objects1d.randomShuffleCube(5);
+    for(auto v:arr){
+        cout<<objects1d.getMove(v)<<" ";
+    }
 }

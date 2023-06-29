@@ -1,6 +1,7 @@
 # ninja log v5
-4	841	1687157710314267208	CMakeFiles/untitled.dir/main.cpp.o	43028b5881e23902
-842	891	1687157710367054166	untitled	f08082dba8a8e89
+5	2203	1688025275617211749	CMakeFiles/untitled.dir/main.cpp.o	43028b5881e23902
+2204	2353	1688025275772927332	untitled	6ee2e3496013c150
 3	1187	1687095086580627208	CMakeFiles/untitled.dir/generic_header_rubics.cpp.o	c914000716b3f1fe
-5	134	1687092824847843457	CMakeFiles/untitled.dir/RubiksCube3dArray.cpp.o	310d0234ae2db150
 3	1093	1687095086485782416	CMakeFiles/untitled.dir/RbiksCube3dArray.cpp.o	c583487e43cca20e
+5	134	1687092824847843457	CMakeFiles/untitled.dir/RubiksCube3dArray.cpp.o	310d0234ae2db150
+8	1617	1688024815102698416	CMakeFiles/untitled.dir/RubicksCube1dArray.cpp.o	1db5ab66ab277b57
