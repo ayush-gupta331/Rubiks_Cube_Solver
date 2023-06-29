@@ -8,11 +8,9 @@ int main() {
     objects3d.print();
     objects3d.b();
     objects3d.print();
-//    objects3d.bPrime();
-//    objects3d.bPrime();
-//    objects3d.print();
+    objects3d.randomShuffleCube(5);
+    objects3d.print();
 
 
-//    cout<<objects3d.getColor( ,1 , 3);
 
 }
