@@ -1,17 +1,8 @@
 #ifndef UNTITLED_BFSSOLVER_H
 #define UNTITLED_BFSSOLVER_H
 
-#endif //UNTITLED_BFSSOLVER_H
-
-
 #include<bits/stdc++.h>
 #include "generic_header_rubics.h"
-
-#ifndef RUBIKS_CUBE_SOLVER_BFSSOLVER_H
-#define RUBIKS_CUBE_SOLVER_BFSSOLVER_H
-
-// Typename T: RubiksCube Representation used (3d, 1d, Bitboard)
-// Typename H: Corresponding Hash function
 
 template<typename T, typename H>
 class BFSSolver {
